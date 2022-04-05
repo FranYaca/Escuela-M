@@ -97,6 +97,7 @@ section .p1{
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: scale(2,1);
 
 }
 
