@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo\ 12.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(255, 0, 119);
+   
+}
+
+.titulo{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+nav{
+    background-color: black;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+    
+}
+li{
+    padding: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#main { 
+    padding: 10px;
+    overflow: hidden;
+}
+
+#principal {
+    float: left;
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    
+    
+}
+
+#imgp { 
+    float: right;
+    
+}
+    
+section h2{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+section .p1{
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+    section .p2{
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+
+}
+    section .p3{
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.pie h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    
+ }
+ #logos-pie {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+ }
+.tel h2 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.tel a {
+    display: flex;
+    justify-content: center;
+
+}
+.tel h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px
+}
+.cont h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.cont h3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+.form  {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.form label {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.form2 label {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.boton1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#imagenestit { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+#grid-area {
+    display: grid;
+    grid-column: 300px 1500px 800px 800px;
+    grid-row: auto;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.sobrenos h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.sobrenos p{
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    margin: 3%;
+    text-align: justify;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.cursostit h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.cursos1 h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.cursos1 p {
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+.cursos2 h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.cursos2 p {
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+.cursos3 h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.cursos3 p {
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: 300%;
+        color: green;
+        font-size: 20px;
+    }
+    
+}
