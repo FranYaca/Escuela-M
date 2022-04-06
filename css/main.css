@@ -102,7 +102,7 @@ section .p1{
 }
 
 .botones img {
-    transition: width 1,5s
+    transition: width 1,5s;
 }
 
 .botones img:hover {
