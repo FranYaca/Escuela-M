@@ -101,6 +101,9 @@ section .p1{
     margin-bottom: 10px;    
 }
 
+.botones img {
+    transition: width 1,5s
+}
 
 .botones img:hover {
     width: 250px;
