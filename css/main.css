@@ -100,13 +100,14 @@ section .p1{
     margin-bottom: 10px;    
 }
 
-.botones img {
-    transition: width 1s
-}
 
-.botones img:hover {
-    width: 300px;
-}
+
+
+
+
+
+
+
 
 
 .pie h3{
