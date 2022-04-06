@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-image: url(../img/fondo\ 12.png);
     background-repeat: no-repeat;
@@ -55,9 +56,9 @@ a{
     
 }
 
+
 #imgp { 
     float: right;
-    
 }
     
 section h2{
@@ -96,9 +97,15 @@ section .p1{
     justify-content: space-around;
     height: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    transform: scale(2,1);
+    margin-bottom: 10px;    
+}
 
+.botones img {
+    transition: width 1s
+}
+
+.botones img:hover {
+    width: 300px;
 }
 
 
