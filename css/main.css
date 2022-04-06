@@ -102,13 +102,9 @@ section .p1{
 }
 
 
-
-
-
-
-
-
-
+.botones img:hover {
+    width: 250px;
+}
 
 .pie h3{
     display: flex;
