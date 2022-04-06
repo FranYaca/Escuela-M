@@ -59,8 +59,9 @@ a{
 
 #imgp { 
     float: right;
-}
     
+}
+
 section h2{
     display: flex;
     font-size: 30px;
@@ -99,7 +100,6 @@ section .p1{
     margin-top: 10px;
     margin-bottom: 10px;    
 }
-
 
 
 
