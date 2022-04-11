@@ -265,6 +265,18 @@ section .p1{
         background-size: 300%;
         color: green;
         font-size: 20px;
+        
+    }
+    .mapa {
+        width: 100%;
+    }
+    
+    .col .video {
+        width: auto;
+        flex-direction: column;
+        position: static;
+        
+       
     }
     
 }
