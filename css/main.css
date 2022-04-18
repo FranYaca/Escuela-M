@@ -260,7 +260,7 @@ section .p1{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         background-size: 300%;
         color: green;
@@ -271,13 +271,6 @@ section .p1{
         width: 100%;
     }
     
-    .col .video {
-        width: auto;
-        flex-direction: column;
-        position: static;
-        
-       
-    }
     
 }
 
