@@ -6,11 +6,13 @@
 
 
 body {
-    background-image: url(./img/fondo\12.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: {
+        image: url(./img/fondo\12.png);
+        repeat: no-repeat;
+        size: 100%;
+    }
     font-family: 'Permanent Marker', cursive;
-    color: rgb(255, 0, 119);
+    color: #ff0077;
    
 }
 
@@ -24,21 +26,21 @@ body {
 nav{
     background-color: black;
     
-}
-ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    justify-content: right;
-    
-}
-li{
-    padding: 15px;
-}
-a{
-    color: white;
-    text-decoration: none;
+    ul{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        justify-content: right;
+        
+    }
+    li{
+        padding: 15px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
 }
 
 
@@ -62,32 +64,35 @@ a{
     
 }
 
-section h2{
+section {
+    h2{
     display: flex;
     font-size: 30px;
     justify-content: center;
-
+    }
 }
 
-section .p1{
-    font-style: italic;
-    font-size: 20px;
-    display: inline-block;
-    margin: 10px;
-}
-    section .p2{
-    font-style: italic;
-    font-size: 20px;
-    display: inline-block;
-    margin: 10px;
-
-}
-    section .p3{
-    font-style: italic;
-    font-size: 20px;
-    display: inline-block;
-    margin: 10px;
-
+section {
+    .p1{
+        font-style: italic;
+        font-size: 20px;
+        display: inline-block;
+        margin: 10px;
+    }
+    .p2{
+        font-style: italic;
+        font-size: 20px;
+        display: inline-block;
+        margin: 10px;
+    }
+        
+    .p3{
+        font-style: italic;
+        font-size: 20px;
+        display: inline-block;
+        margin: 10px;
+    }
+        
 }
 
 .botones{
@@ -99,22 +104,23 @@ section .p1{
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;    
+    
+    img {
+        transition: width 1s;
+        &:hover {
+           width: 250px;
+           
+        }
+    }
 }
 
-.botones img {
-    transition: width 1s;
-}
-
-.botones img:hover {
-    width: 250px;
-}
-
-.pie h3{
+.pie {
+    h3{
     display: flex;
     justify-content: center;
     margin: 10px;
     padding: 10px;
-    
+    }
  }
  #logos-pie {
     display: flex;
@@ -122,33 +128,36 @@ section .p1{
     justify-content: center;
     gap: 20px;
  }
-.tel h2 {
+.tel {
+    h2 {
     display: flex;
     justify-content: center;
-    
-    
-}
-.tel a {
-    display: flex;
-    justify-content: center;
+    }
+    a {
+       display: flex;
+       justify-content: center;
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+}   
 
-}
-.tel h3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px
-}
-.cont h2 {
+    
+.cont {
+    h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-}
-.cont h3 {
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-    margin-bottom: 30px;
-}
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+    }
+}    
 .form  {
     display: flex;
     justify-content: center;
@@ -157,10 +166,10 @@ section .p1{
     margin: 10px;
     padding: 0;
     flex-wrap: wrap;
-}
-.form label {
-    text-align: center;
-    color: rgb(0, 0, 0);
+        label {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
 }
 
 .form2 {
@@ -171,10 +180,10 @@ section .p1{
     margin: 10px;
     padding: 0;
     flex-wrap: wrap;
-}
-.form2 label {
-    text-align: center;
-    color: rgb(0, 0, 0);
+        label {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
 }
 .boton1{
     display: flex;
@@ -203,61 +212,69 @@ section .p1{
 
 
 
-.sobrenos h2{
+.sobrenos {
+    h2{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
-}
-.sobrenos p{
-    font-size: 20px;
-    color: rgb(22, 21, 21);
-    margin: 3%;
-    text-align: justify;
-}
+    }
+    p{
+        font-size: 20px;
+        color: rgb(22, 21, 21);
+        margin: 3%;
+        text-align: justify;
+    }
+}   
 .video{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
-.cursostit h2{
+.cursostit {
+    h2{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
+    }
 }
-.cursos1 h3 {
+.cursos1 {
+    h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
+    }
+    p {
+        color: rgb(5, 5, 5);
+        margin-bottom: 10px;
+    }
+}
+.cursos2 {
+    h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    }
+    p {
+        color: rgb(5, 5, 5);
+        margin-bottom: 10px;
+    }
 }
 
-.cursos1 p {
-    color: rgb(5, 5, 5);
-    margin-bottom: 10px;
-}
-.cursos2 h3 {
+.cursos3 {
+    h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
-}
-
-.cursos2 p {
-    color: rgb(5, 5, 5);
-    margin-bottom: 10px;
-}
-.cursos3 h3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
-.cursos3 p {
-    color: rgb(5, 5, 5);
-    margin-bottom: 10px;
+    }
+    p {
+        color: rgb(5, 5, 5);
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -278,11 +295,12 @@ section .p1{
     padding: 25px;
 }
 
-#galeria img {
+#galeria {
+    img {
     width: 100%;
     height: 250px;
-}
-
-#galeria img:hover {
-    border: 5px solid white;
+        &:hover {
+            border: 5px solid white;
+        }
+    }
 }
