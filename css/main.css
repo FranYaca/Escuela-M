@@ -9,17 +9,27 @@ body {
   background-image: url(./img/fondo\12.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: 'Permanent Marker', cursive;
+  font-family: Helvetica Neue, Arial, Helvetica, Verdana, sans-serif;
   color: #ff0077;
 }
 
-.titulo {
+.logtit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.logtit h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logtit img {
+  margin-right: 250px;
 }
 
 nav {
@@ -55,7 +65,7 @@ nav a {
 #principal {
   float: left;
   font-size: 20px;
-  color: #161515;
+  color: black;
 }
 
 #imgp {
@@ -120,27 +130,20 @@ section .p3 {
   width: 250px;
 }
 
-.pie h3 {
+.pie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px;
-  padding: 10px;
-}
-
-#logos-pie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tel h2 {
@@ -192,7 +195,7 @@ section .p3 {
   margin-bottom: 30px;
 }
 
-.form {
+.form, .form2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,31 +214,7 @@ section .p3 {
       flex-wrap: wrap;
 }
 
-.form label {
-  text-align: center;
-  color: black;
-}
-
-.form2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 10px;
-  padding: 0;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.form2 label {
+.form label, .form2 label {
   text-align: center;
   color: black;
 }
@@ -297,7 +276,7 @@ section .p3 {
 
 .sobrenos p {
   font-size: 20px;
-  color: #161515;
+  color: black;
   margin: 3%;
   text-align: justify;
 }
@@ -323,7 +302,7 @@ section .p3 {
   margin-top: 40px;
 }
 
-.cursos1 h3 {
+.cursos1 h3, .cursos2 h3, .cursos3 h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,40 +313,8 @@ section .p3 {
   margin-top: 40px;
 }
 
-.cursos1 p {
-  color: #050505;
-  margin-bottom: 10px;
-}
-
-.cursos2 h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-.cursos2 p {
-  color: #050505;
-  margin-bottom: 10px;
-}
-
-.cursos3 h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-.cursos3 p {
-  color: #050505;
+.cursos1 p, .cursos2 p, .cursos3 p {
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -379,6 +326,17 @@ section .p3 {
   }
   .mapa {
     width: 100%;
+  }
+  .logtit img {
+    margin-right: 50px;
+    width: 110px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .logtit img {
+    margin-right: 120px;
+    width: 150px;
   }
 }
 
