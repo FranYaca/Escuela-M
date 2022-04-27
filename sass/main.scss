@@ -12,8 +12,8 @@ $colores: (
 
 
 body {
+    background-image: url(../img/fondo12.png);
     background: {
-        image: url(./img/fondo\12.png);
         repeat: no-repeat;
         size: 100%;
     }
@@ -29,7 +29,7 @@ body {
         align-self: center;
     }
     img {
-        margin-right: 250px;
+        margin-right: 600px;
     }
 
     
