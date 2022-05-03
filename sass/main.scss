@@ -12,7 +12,7 @@ $colores: (
 
 
 body {
-    background-image: url(../img/fondo12.png);
+    background-image: url(../img/fondo13.png);
     background: {
         repeat: no-repeat;
         size: 100%;
@@ -33,6 +33,10 @@ body {
     }
 
     
+}
+
+.titulo {
+    text-shadow: grey 0.1em 0.1em 0.2em;
 }
 
 nav{
@@ -57,7 +61,7 @@ nav{
 
 
 
-#main { 
+.main { 
     padding: 10px;
     overflow: hidden;
 }

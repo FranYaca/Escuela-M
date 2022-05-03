@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../img/fondo12.png);
+  background-image: url(../img/fondo13.png);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: Helvetica Neue, Arial, Helvetica, Verdana, sans-serif;
@@ -30,6 +30,10 @@ body {
 
 .logtit img {
   margin-right: 600px;
+}
+
+.titulo {
+  text-shadow: grey 0.1em 0.1em 0.2em;
 }
 
 nav {
@@ -57,7 +61,7 @@ nav a {
   text-decoration: none;
 }
 
-#main {
+.main {
   padding: 10px;
   overflow: hidden;
 }
