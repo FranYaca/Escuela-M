@@ -439,3 +439,7 @@ section .p3 {
 #galeria img:hover {
   border: 5px solid white;
 }
+
+#curs {
+  background-color: lightblue;
+}
