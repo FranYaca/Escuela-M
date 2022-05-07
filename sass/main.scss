@@ -380,7 +380,24 @@ section {
             width: 110px;
         }
     }
-    
+    .contact_form {
+        width: 100%;
+        .formulario {
+            width: 100%;
+            input {
+                width: 100%;
+                
+
+            }
+            textarea {
+                width: 100%;
+            }
+            button {
+                width: 100%;
+            }
+
+        }
+    }
     
 }
 @media (min-width: 601px) and (max-width: 1000px) {

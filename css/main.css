@@ -418,6 +418,21 @@ section .p3 {
     margin-right: 50px;
     width: 110px;
   }
+  .contact_form {
+    width: 100%;
+  }
+  .contact_form .formulario {
+    width: 100%;
+  }
+  .contact_form .formulario input {
+    width: 100%;
+  }
+  .contact_form .formulario textarea {
+    width: 100%;
+  }
+  .contact_form .formulario button {
+    width: 100%;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1000px) {
